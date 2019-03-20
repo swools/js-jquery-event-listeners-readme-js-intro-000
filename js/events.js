@@ -10,6 +10,12 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $('#typing').on('keydown', function(e){
+    console.log(e)
+  })
+}
+
 $(document).ready(function(){
 
 getIt()
